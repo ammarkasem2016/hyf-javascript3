@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>HYF REPOS</title>
+</head>
+<body>
+    <div class="container" id="htmlContainer">    
+    <h1>HYF Github Repository</h1> 
+    <div class="btnContainers" id="btnContainers">    
+    <button id="hyfRepos" onclick="displayRepos();">Display HYF Repos</button>
+    <button id="hyfContri" onclick="getContrib();">Display Repos Contributors</button> 
+    <input type="text" name="search" id="search" placeholder="Search..">
+    <button id="hyfRepos" onclick="getApiByInput();">Go</button>
+    </div>
+    <div id="reposContainer"></div>    
+    <div id="contrContainer"></div>      
+    </div>    
+    <script src="index.js"></script>
+</body>    
+</html>
